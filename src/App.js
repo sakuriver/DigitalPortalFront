@@ -12,4 +12,4 @@ function App() {
   ReactDOM.render(element, document.getElementById('root'));
 }
 
-export default App;
+setInterval(App, 1000); ;
