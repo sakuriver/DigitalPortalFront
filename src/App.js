@@ -9,7 +9,7 @@ function App() {
        <h2>It is {new Date().toLocaleDateTimeString()}</h2>
     </div>
   );
-  ReactDOM.render(element, document.getElementById('root'));
+  return element;
 }
 
 export default App;
